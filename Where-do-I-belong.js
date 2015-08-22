@@ -4,9 +4,8 @@ function where(arr, num) {
   var i = 0;
   while(num > arr[i]){
     i++;
+  }
+  return i;
 }
 
 where([40, 60], 50);
-
-  }
-  return i;
